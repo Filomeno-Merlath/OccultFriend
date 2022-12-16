@@ -54,7 +54,7 @@ async function getOccult() {
       ).innerHTML = `<h1>Sorteio terminado!</h1>`;
     } else {
       if (alreadys.length == 0) {
-        rndInt = randomIntFromInterval(1, 17);
+        rndInt = randomIntFromInterval(18, 25);
         insertAlready(rndInt);
         console.log(rndInt);
       } else {
