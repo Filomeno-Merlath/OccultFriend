@@ -26,10 +26,9 @@ body > main {
   min-height: 20vh;
   position: absolute;
   top: 35%;
-
   margin: -25px 50px 40px -25px;
   align-items: center;
-  border-radius: 10% 10% 10% 10% / 8% 8% 8% 8%;
+  border-radius: 10% 10% 10% 10% / 12% 12% 12% 12%;
   box-shadow: -1px 1px 9px 7px rgba(255, 255, 255, 0.32);
 }
 section {
