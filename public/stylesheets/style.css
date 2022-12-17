@@ -1,7 +1,7 @@
 body {
   padding: 0;
   background: url(/images/6128227.jpg) no-repeat center;
-  font: 20px "Josefin Sans", sans-serif;
+  font: 16px "Josefin Sans", sans-serif;
   background-repeat: no-repeat;
   background-size: 100%;
   bottom: 0;
@@ -27,15 +27,16 @@ body > main {
 button {
   position: absolute;
   margin: auto;
-  min-width: 30vw;
-  min-height: 6vh;
-  top: 87%;
-  left: 35%;
-  font-size: 16;
+  min-width: 55vw;
+  min-height: 8vh;
+  top: 85%;
+  left: 23%;
+  font-size: 45;
   background-color: #2f773e;
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 8% 8% 8% 8% / 18% 18% 18% 18%;
 }
 button:hover {
   position: absolute;
@@ -44,7 +45,7 @@ button:hover {
   min-height: 6vh;
   top: 87%;
   left: 35%;
-  font-size: 16;
+  font-size: 16px;
   background-color: #449154;
   color: white;
   border: none;
