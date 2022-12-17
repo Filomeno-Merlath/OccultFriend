@@ -48,7 +48,7 @@ async function getOccult() {
     });
     console.log(alreadys);
 
-    if (alreadys.length == 17) {
+    if (alreadys.length == 8) {
       document.getElementById(
         "result"
       ).innerHTML = `<h1>Sorteio terminado!</h1>`;
@@ -72,12 +72,12 @@ async function getOccult() {
         } else {
           rndInt = 1;
           let i = 0;
-          rndInt = randomIntFromInterval(1, 17);
+          rndInt = randomIntFromInterval(19, 26);
 
           while (i < alreadys.length) {
             if (alreadys[i].people_fk_id == rndInt || userId == rndInt) {
               console.log(alreadys[i].people_fk_id == rndInt);
-              rndInt = randomIntFromInterval(1, 17);
+              rndInt = randomIntFromInterval(19, 26);
               i = 0;
               console.log;
             } else {
